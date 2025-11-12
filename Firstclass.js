@@ -55,11 +55,39 @@
 //     console.log("valid age entered");
 // }
 // }   
+// Example: simple password check (kept for reference)
 const correctpassword = "admin123";
-let userinput = prompt("Enter your password");
-if(userinput === correctpassword){
-    console.log("Login successful");
+
+/**
+ * Autofill the sample form in `index.html`.
+ * This is the "form completing" function the user asked to implement.
+ * Behavior:
+ *  - Finds inputs by id `name`, `email`, `password` and fills them with sample values.
+ *  - If form or inputs are missing, it logs a helpful error.
+ */
+function autoFillForm(){
+    const form = document.getElementById('userForm');
+    if(!form){
+        console.error('Form element with id "userForm" not found.');
+        return;
+    }
+
+    const nameInput = document.getElementById('name');
+    const emailInput = document.getElementById('email');
+    const passwordInput = document.getElementById('password');
+
+    if(!nameInput || !emailInput || !passwordInput){
+        console.error('One or more form inputs (name, email, password) are missing.');
+        return;
+    }
+
+    // Sample values - choose whatever is appropriate for your app
+    nameInput.value = 'Pratham Singh';
+    emailInput.value = 'pratham@example.com';
+    passwordInput.value = 'SecretPass123!';
+
+    console.log('Form auto-filled. Review values and submit if OK.');
 }
-else{
-    console.error("Invalid password");
-}
+
+// Expose to global scope so button onclick can call it when loaded via <script>
+window.autoFillForm = autoFillForm;
