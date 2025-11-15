@@ -40,6 +40,94 @@
 //     return fibonacci(n-1) + fibonacci(n-2);
 // }
 // console.log(fibonacci(7));
-let arr = [1,2,3,4,5];
-let[a,b] = arr;
-console.log(a,b);
+// let arr = [1,2,3,4,5];
+// let[a,b] = arr;
+// console.log(a,b);
+// let arr = [1,2,3,4,5];
+// let [a, , , b] = arr;
+// console.log(a,b);
+
+// let arr = [1,2,3,4,5];
+// arr.filter(function(num){
+//   return val<3;
+// })
+// let arr = [1,2,3,4,5];
+// for(let i = 0; i < 5; i++){
+//     console.log(arr[i]);
+// }
+// let obj = {
+
+
+//     name: "alok singh",
+//     age: 20,
+//     skills: ["javascript", "html", "css"],
+// };
+// let obj1 = new Object();
+// let obj = {
+
+
+//     name: "alok singh",
+//     age: 20,
+//     skills: ["javascript", "html", "css"],
+//     social: {
+//         media: {
+//             facebook: "fb.com/aloksingh",
+//             twitter: "twitter.com/aloksingh",
+//         }
+//     },
+// };
+// // obj.social.media.facebook.twitter
+// // console.log(obj.social.media.twitter);
+// obj.age;
+// console.log(obj.age);
+// function add(a , b){
+//     return a + b;
+// }
+// console.log(add(5, 10));
+// function addUnlimited(...numbers){
+//     let sum = 0;
+//     numbers.reduce((acc, val) => {
+//         sum += val;
+//     }, 0);
+//     console.log(sum);
+// }
+
+
+// addUnlimited(1,2,3,4,5); // accumilator, current value
+
+// function acds({name, age}){
+//     console.log(name , age);
+// }
+// acds({name: "alok", age: 20});
+
+// console.log(this); // object
+// function alok(){
+//     console.log(this); // undefined
+// }
+// alok();
+
+
+// obj={
+//     name: "alok singh",
+//     age: 20,
+//     skills: ["javascript", "html", "css"],
+//     func: function(){
+//         console.log(this);
+//     },
+//     func2: ()=>{
+//         console.log(this);
+//     }
+// };
+// obj.func();
+// obj.func2();
+// using map function
+// let arr = [1,2,3,4,5];
+// let newArr = arr.map((val) => val * val);
+// console.log(newArr);
+// // let filteredArr = arr.filter((val) => val > 2);
+
+// let arr = [1,2,3,4,5];
+// let newarr = arr.filter(function(val){
+//    return val%2===0;
+// });
+// console.log(newarr);
