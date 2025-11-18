@@ -131,3 +131,32 @@
 //    return val%2===0;
 // });
 // console.log(newarr);
+
+// using some function and every function.
+
+// let arr = ["javascript", "json", "html", "css" ];
+// let newarr = arr.every(function(val){
+//    return val.length > 3;
+// });
+// console.log(newarr);
+// using Object frezzing and sealing.
+// let obj = {
+//     name: "alok singh",
+//     age: 20,
+// };
+// // Object.freeze(obj);
+// obj.name = "singh alok";
+// console.log(obj.name);
+
+// nested question
+// let obj = {
+//     name: "alok singh",
+//     age: 20,  
+//     address: {
+//         city: "delhi",
+//         country: "india",
+//         pincode: 110001,
+//     },
+// };
+// obj.address.city = "new delhi";
+// console.log(obj.address.city);
