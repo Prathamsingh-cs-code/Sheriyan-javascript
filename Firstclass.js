@@ -56,11 +56,11 @@
 // }
 // }   
 // Example: simple password check (kept for reference)
-const correctpassword = "admin123";
+// const correctpassword = "admin123";
 
 /**
  * Autofill the sample form in `index.html`.
  * This is the "form completing" function the user asked to implement.
  * Behavior:
  *  - Finds inputs by id `name`, `email`, `password` and fills them with sample values.
- *  - If form or inputs zz
+ *  - If form or inputs

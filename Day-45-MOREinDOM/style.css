@@ -1,0 +1,94 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+overflow: hidden;
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+button{
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+ border-radius: 10px;
+}
+button:active{
+   scale: 0.95;
+    } */
+
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body{
+        overflow: hidden;
+        height: 100vh;
+        font-family: system-ui, Arial, sans-serif;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        background: linear-gradient(180deg,#f7f8fb,#eef3ff);
+    }
+    main{
+        height: 100vh;  
+        width: 100vw;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        flex-direction:column;
+        gap: 18px;
+    }
+    .card{
+        height: 300px;
+        width: 500px;
+        border-radius: 20px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.2);
+        background-color: #f0f0f0;
+        padding: 20px;
+    }
+    .outer{
+        height: 20px;
+        width: 360px;
+        border-radius: 50px;
+        background-color: gainsboro;
+        box-shadow: 0 0 10px rgba(0,0,0);
+    gap: 10px;
+}
+    .inner{
+        height: 100%;
+        width: 0%;
+        border-radius: 50px;
+        background-color: linear-gradient(90deg,#3b82f6,#06b6d4);
+        background-color: #4ade80; /* fallback */
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        color: #063; /* dark text for percent */
+        font-weight: 700;
+        transition: width 600ms ease;
+    }
+    button#randomize{
+        padding: 8px 14px;
+        border-radius: 8px;
+        border: none;
+        background: #0ea5e9;
+        color: white;
+        cursor: pointer;
+        font-weight: 600;
+    }
+    button#randomize:active{ transform: scale(.98) }
+
+    
