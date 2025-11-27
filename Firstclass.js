@@ -63,4 +63,5 @@
  * This is the "form completing" function the user asked to implement.
  * Behavior:
  *  - Finds inputs by id `name`, `email`, `password` and fills them with sample values.
- *  - If form or inputs
+ *  - If form or inputs do not exist, the function handles it gracefully.
+ */

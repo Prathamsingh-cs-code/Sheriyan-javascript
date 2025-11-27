@@ -29,8 +29,8 @@ button:active{
     } */
 
     *{
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
     box-sizing: border-box;
     }
     body{
@@ -51,44 +51,63 @@ button:active{
         flex-direction:column;
         gap: 18px;
     }
+    
+
+.card p{
+text-align: center;
+margin-bottom : 20px;
+}
+
+.card p span{
+font-weight: 600;
+color: royalblue;
+}
+
     .card{
         height: 300px;
         width: 500px;
         border-radius: 20px;
         box-shadow: 0 0 20px rgba(0,0,0,0.2);
         background-color: #f0f0f0;
-        padding: 20px;
+        padding: 50px 20px;
     }
     .outer{
         height: 20px;
-        width: 360px;
+        width: 450px;
         border-radius: 50px;
         background-color: gainsboro;
         box-shadow: 0 0 10px rgba(0,0,0);
-    gap: 10px;
-}
+       gap: 10%;
+    }
     .inner{
         height: 100%;
         width: 0%;
         border-radius: 50px;
-        background-color: linear-gradient(90deg,#3b82f6,#06b6d4);
-        background-color: #4ade80; /* fallback */
-        display:flex;
-        align-items:center;
-        justify-content:center;
-        color: #063; /* dark text for percent */
-        font-weight: 700;
-        transition: width 600ms ease;
+        background-color: linear-gradient(90deg, #00c6ff, #0072ff)  ;
+        background-color: rgb(78, 214, 78); /* fallback */
+  
     }
-    button#randomize{
-        padding: 8px 14px;
-        border-radius: 8px;
-        border: none;
-        background: #0ea5e9;
-        color: white;
-        cursor: pointer;
-        font-weight: 600;
-    }
-    button#randomize:active{ transform: scale(.98) }
+ 
+     .bottom{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      
+     
+     }
+.bottom h2{
+    font-size: 40px;
+}
+
+.bottom button{
+    padding: 12px 25px;
+   background-color: green;
+   color: white;
+   border-radius: 10px;
+border-radius: 5px;
+   font-weight: 600;
+   border: 0;
+}
+
 
     
