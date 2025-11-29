@@ -40,7 +40,8 @@ button:active{
         display:flex;
         align-items:center;
         justify-content:center;
-        background: linear-gradient(180deg,#f7f8fb,#eef3ff);
+        background: linear-gradient(180deg,#db58b4,#3c5ba1);
+        padding: 50px;
     }
     main{
         height: 100vh;  
@@ -50,6 +51,7 @@ button:active{
         justify-content:center;
         flex-direction:column;
         gap: 18px;
+        padding: 20px 10px;
     }
     
 
