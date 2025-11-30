@@ -1,7 +1,7 @@
 var body = document.body
-var h1 = document.querySelector('h1')
+var h2 = document.querySelector('h2')
 
 
-main.addEventListener('keydown', function(dets){
-cursor.innerHTML = dets.code
+body.addEventListener('keydown', function(dets){
+h2.innerHTML = dets.code
 })

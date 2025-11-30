@@ -2,11 +2,11 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    color: white;
+
 }
 html,
 body{
- 
-   
      height: 100%;
     width: 100%;
 }
@@ -15,17 +15,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color:black;
 }
-h1{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-flex-direction: column;
-padding: 50px;
+h2{
+padding: 20px;
 font-size: 100px;
-background-color: grey ;
-border-radius: 50px;
+background-color: #333 ;
+border-radius: 20px;
+font-family: monospace;
+color: aliceblue;
 }
