@@ -19,12 +19,40 @@ main{
 }
 .card{
     height: 60%;
-    width: 80% ;
-    background-color: white;
+    width: 60% ;
+    background-color: rgb(143, 137, 137);
    border-radius: 50px;
+   margin: 20px;
+   padding: 30px;
+   position: relative;
 }
 img{
     height: 80%;
-    border-radius: 50px;
-    width: 50%;
+    border-radius: 40px;
+    width: 100%;
+}
+.bottom h1{
+    margin: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 30px;
+   font-weight: 500px;
+}
+.card i {
+ position:absolute ;
+ top: 50%;
+ left: 50%;
+font-size: 60px;
+opacity: 0;
+background: linear-gradient(to right bottom, rgb(199, 79, 159) , purple);
+ color: transparent;
+ /* background-image: url(); */
+ background-size: cover;
+ background-clip: text;
+ -webkit-background-clip: text;
+transform: translate(-50% ,-50%);
+
+transition: all cubic-bezier(.72,.97,.7,1.34);
+
 }
