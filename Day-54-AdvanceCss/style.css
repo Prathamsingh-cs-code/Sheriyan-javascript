@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+@keyframes changeBG{
+    from{
+        background-color: white;
+        border-radius: 0px;
+    }
+to {
+   background-color: red;
+   border-radius: 50px;
+}
+}   
+
+.box{
+    height: 200px;
+    width: 200px;
+    animation: changeBG 10s forwards;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    padding: 50px;
+    border: 2px solid whitesmoke;
+    box-shadow: 2px , 2px , 5px blue;
+}
