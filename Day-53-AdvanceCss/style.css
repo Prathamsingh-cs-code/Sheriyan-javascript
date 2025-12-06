@@ -134,3 +134,10 @@ body {
 .box img {
     width: 100%;
 }
+.box :hover{
+    transform: scale(1.2) !important;
+    /* transition: all 0.3s ease-in-out; */
+}
+body:has(.box:hover) .box{
+transform: scale(0.8);
+}
