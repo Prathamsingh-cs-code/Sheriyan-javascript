@@ -16,13 +16,13 @@
 // let alok = new sketch("Gaurav", 21)
 // console.log(alok)
 
-// class alok{
-//     constructor(){
-//         this.name = "Gaurav";
-//         this.age = 21;
-//     }
-// }
-// new alok()
+class alok{
+    constructor(){
+        this.name = "Gaurav";
+        this.age = 21;
+    }
+}
+new alok()
 
 
 // Most Important!
@@ -46,11 +46,11 @@
 // es6 function inside object -> this = window
 // es6 function inside function -> this = window
 
-let obj = {
-    name: "Gaurav",
-    age: 21,
-};
-function fun(){
-    console.log(this)
-}
-fun.call(obj) // this = obj
+// let obj = {
+//     name: "Gaurav",
+//     age: 21,
+// };
+// function fun(){
+//     console.log(this)
+// }
+// fun.call(obj) // this = obj
