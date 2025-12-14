@@ -67,11 +67,11 @@
 // 
 // how to give error in javascript
 
-// try{
-//     let a = 12;
-//     console.log(a.age);
-// }
-// catch(err){
-//     console.error(new Error("This is an error message")
-// );
-// }
+try{
+    let a = 12;
+    console.log(a.age);
+}
+catch(err){
+    console.error(new Error("This is an error message")
+);
+}
